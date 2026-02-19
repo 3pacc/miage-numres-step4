@@ -2,13 +2,14 @@ import { initQuizz } from './quizz.js';
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-        <div class="header" role="banner" style="cursor:pointer;">
+        <header>
           <h1>My Quizz</h1>
-          <nav aria-label="Navigation principale">Pour accéder a la page /about <a href="about/" style="text-decoration: none;">click ici</a></nav>
-        </div>
+          <nav aria-label="Navigation principale">
+            <p>Pour accéder a la page /about <a href="about/">click ici</a></p>
+          </nav>
+        </header>
 
-
-        <div class="topnav" role="navigation" aria-label="Réseaux sociaux">
+        <nav class="topnav" aria-label="Réseaux sociaux">
           <a href="#" class="fa fa-facebook" title="Facebook" aria-label="Accédez à notre page Facebook"></a>
           <a href="#" class="fa fa-twitter" title="Twitter" aria-label="Accédez à notre page Twitter"></a>
           <a href="#" class="fa fa-google" title="Google" aria-label="Accédez à notre page Google"></a>
@@ -29,29 +30,29 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-yahoo" title="Yahoo" aria-label="Accédez à notre page Yahoo"></a>
           <a href="#" class="fa fa-reddit" title="Reddit" aria-label="Accédez à notre page Reddit"></a>
           <a href="#" class="fa fa-rss" title="RSS" aria-label="Accédez à notre flux RSS"></a>
-        </div>
+        </nav>
 
-        <div class="row">
-          <div class="leftcolumn">
-            <div class="card">
-              <h1>Nom étudiant</h1>
-              <h5>description</h5>
-              <div id="quiz" role="main" aria-label="Quiz principal">
-                <h2>A TOI DE JOUER</h2>
-                <div id="question" role="heading" aria-level="2" aria-live="polite"></div>
+        <main>
+          <section class="row">
+            <article class="card">
+              <h2>Nom étudiant</h2>
+              <p>description</p>
+              <section id="quiz" aria-label="Quiz principal">
+                <h3>A TOI DE JOUER</h3>
+                <div id="question" aria-live="polite" aria-label="Question actuelle"></div>
                 <div id="proposals" role="group" aria-label="Options de réponse"></div>
-              </div>
-            </div>
-          </div>
-          <div class="rightcolumn">
-            <div class="card">
-              <img src="/question.png" alt="Illustration pour les questions du quizz" width="500" height="600">
-            </div>
-        </div>
+              </section>
+            </article>
 
-        <div class="footer" role="contentinfo">
-          <h2>@2024</h2>
-        </div>
+            <aside class="card">
+              <img src="/question.png" alt="Illustration pour les questions du quizz" width="500" height="600">
+            </aside>
+          </section>
+        </main>
+
+        <footer>
+          <p>&copy; 2024</p>
+        </footer>
 `
 
 initQuizz();

@@ -46,11 +46,16 @@ Screen:
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
 Réponse:
 
+Parce que les éléments HTML sémantiques (button, nav, h1-h6, article, section,..) embarquent déjà les rôles et propriétés ARIA appropriés. Il est préférable de les utiliser plutôt que d'ajouter ARIA manuellement.
+ARIA doit être utilisé seulement quand le HTML sémantique ne suffit pas. C'est plus propre.
+
 # Q8: Ajouter le screen de votre score Lighthouse
 Screen:
 
+![alt text](image-2.png)
+
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
-Réponse:
+Réponse: Parceque justement HTML sémantique suffisait et ce qui reste pour faire augmenté le score de l'accessibilité est de changer les couleurs du background et foreground comme bien mentionné
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse:
