@@ -7,11 +7,13 @@ Sur le plan commercial, environ 1 personne sur 5 a une limitation quelconque, re
 
 L'accessibilité renforce la réputation de l'entreprise en démontrant une responsabilité sociétale et fidélise une clientèle sensible à l'inclusion.
 
-Techniquement, les pratiques d'accessibilité (textes alternatifs, HTML sémantique) améliorent le SEO et le classement dans les moteurs de recherche.
+les pratiques d'accessibilité (textes alternatifs, HTML sémantique) améliorent le SEO et le classement dans les moteurs de recherche.
 
-L'accessibilité bénéficie à TOUS les utilisateurs, pas seulement aux personnes handicapées, avec une meilleure navigation et maintenabilité du code.
+L'accessibilité bénéficie à TOUS les utilisateurs, pas seulement aux personnes handicapées.
 
-Opérationnellement, elle réduit les bugs et facilite la maintenance long terme, tout en diminuant le support client.
+Opérationnellement, elle réduit les bugs et facilite la maintenance long terme.
+
+diminuer le support client
 
 # Q2: Ajouter le screen de votre score :
 Screen:
