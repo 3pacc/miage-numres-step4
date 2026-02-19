@@ -60,23 +60,39 @@ Réponse: Parceque justement HTML sémantique suffisait et ce qui reste pour fai
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse:
 
+2.36
+
 # Q11: Quel est la valeur du score AA :
 Réponse:
+
+4.6 pour AA.
 
 # Q12: Quel est la valeur du score AAA :
 Réponse:
 
+7.06 pour AAA
+
 # Q13: Comment pouvez vous changer la valeur du contraste de votre texte ?
 Réponse:
 
+Modifier les couleurs CSS et Utiliser des couleurs plus claires pour le texte (blanc, noir) sur des fonds foncés ou clairs
+
 # Q14: Ajouter le screen de votre score Lighthouse
 Screen:
+![alt text](image-3.png)
 
 # Q15: Êtes vous capable de déterminer visuellement ce qui est un lien ou pas en appliquant chaque altérations ?
 Réponse:
 
+Non, c'est très difficile ou impossible avec certaines altérations :
+Les liens restent visibles mais floute, difficile à lire les détails
+déficiences rouges/vertes) : Si les liens sont uniquement identifiés par leur couleur, ils deviennent indistinguibles du texte normal
+Impossible de distinguer les liens par couleur seule, tous les éléments deviennent gris
+
+
 # Q16: Ajouter le screen de votre score Lighthouse
 Screen:
+![alt text](image-4.png)
 
 # Q17:  Proposition 1
 Description:
