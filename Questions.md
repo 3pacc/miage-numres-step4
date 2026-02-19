@@ -1,17 +1,32 @@
 # Q1: Quels sont les arguments que vous pouvez utiliser pour convaincre votre Client de rendre son quizz accessible ? (Vous pouvez vous aider du cour)
 Réponse:
 
+D'un point de vue légal, l'accessibilité est une obligation. Le respect des directives WCAG 2.1 et la loi Handicap française évitent les risques juridiques.
+
+Sur le plan commercial, environ 1 personne sur 5 a une limitation quelconque, représentant un marché potentiel important. L'accessibilité élargit la base d'utilisateurs et permet d'accéder à des appels d'offres publiques.
+
+L'accessibilité renforce la réputation de l'entreprise en démontrant une responsabilité sociétale et fidélise une clientèle sensible à l'inclusion.
+
+Techniquement, les pratiques d'accessibilité (textes alternatifs, HTML sémantique) améliorent le SEO et le classement dans les moteurs de recherche.
+
+L'accessibilité bénéficie à TOUS les utilisateurs, pas seulement aux personnes handicapées, avec une meilleure navigation et maintenabilité du code.
+
+Opérationnellement, elle réduit les bugs et facilite la maintenance long terme, tout en diminuant le support client.
+
 # Q2: Ajouter le screen de votre score :
 Screen:
+![alt text](image.png)
 
 # Q3: Est-ce que l'analyse de Lighthouse est suffisante pour évaluer l'Accessibilité de votre Application ?
 Réponse:
+Non. Lighthouse détecte les problèmes évidentes (alt-text, labels, contraste) mais pas les tests manuels (clavier, lecteur d'écran, ARIA) ni l'expérience utilisateur réelle.
 
 # Q4: Combien de fois vous devez utiliser une touche du clavier pour passer le quizz ?
-Réponse:
+Réponse:  Aucune
 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
+
 
 # Q6: Ajouter le screen de votre score Lighthouse
 Screen:
