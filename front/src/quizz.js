@@ -16,7 +16,6 @@ export async function initQuizz(questions) {
     
   currentQuestion = 0;
   score = 0;
-
   
   quizzData = await getQuestionsApi();
     
@@ -30,7 +29,7 @@ export async function initQuizz(questions) {
   
 async function showQuestion() {
   const question = quizzData[currentQuestion];
-  questionElement.innerText = question.label
+  questionElement.innerText = question.label;
   
   proposalsElement.innerHTML = "";
   question.proposals.forEach((proposal, index) => {
@@ -41,6 +40,10 @@ async function showQuestion() {
     proposalsElement.appendChild(button);
     button.addEventListener("click", selectAnswer);
   });
+
+  if (questionElement) {
+    questionElement.focus({ focusVisible: true });
+  }
 }
   
 async function selectAnswer(e) {
@@ -51,6 +54,11 @@ async function selectAnswer(e) {
     if (selectedButton.innerText === proposals[i].label) {
       saveAnswer(proposals[i])
     }
+  }
+
+  const feedbackMessage = document.getElementById("feedback-message");
+  if (feedbackMessage) {
+    feedbackMessage.innerText = "Réponse enregistrée.";
   }
 
   currentQuestion++;
@@ -67,8 +75,11 @@ async function showResult() {
 
   score = await evaluate(newAnswers);
 
-  quiz.innerHTML = `
-    <h1>Quizz Finis!</h1>
+  const quizContainer = document.getElementById("quiz");
+  quizContainer.innerHTML = `
+    <h1 id="result-title" tabindex="-1">Quizz Finis!</h1>
     <p>Ton score: ${score}/${quizzData.length}</p>
   `;
+
+  document.getElementById("result-title").focus({ focusVisible: true });
 }

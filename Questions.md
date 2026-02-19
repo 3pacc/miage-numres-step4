@@ -95,12 +95,12 @@ Screen:
 ![alt text](image-4.png)
 
 # Q17:  Proposition 1
-Description:
-Nb d'actions gagnée : 
+Description: Déplacer automatiquement le focus sur le texte de la nouvelle question dès son affichage, pour éviter à l'utilisateur de devoir reparcourir tout le menu au clavier.
+Nb d'actions gagnée : Suppression de 5 à 10 appuis sur la touche Tab à chaque changement de question
 
 # Q18:  Proposition 2
-Description:
-Nb d'actions gagnée : 
+Description: Utiliser une zone "live" pour annoncer vocalement au lecteur d'écran que la réponse a bien été enregistrée, sans obliger l'utilisateur à déplacer son focus pour chercher l'information.
+Nb d'actions gagnée : Suppression de 2 à 4 appuis sur la touche Tab par question.
 
 # Q19:  Proposition 3
 Description:
