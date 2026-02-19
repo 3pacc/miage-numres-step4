@@ -27,9 +27,21 @@ Réponse:  Aucune
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse:
 
+Rôles ARIA :
+ En-tête du site
+ Bouton cliquable
+ Navigation
+
+Propriétés ARIA:
+ Description lisible pour l'utilisateur
+ Masque un élément des lecteurs d'écran
+ Indique si un élément est désactivé
+
 
 # Q6: Ajouter le screen de votre score Lighthouse
 Screen:
+
+![alt text](image-1.png)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
 Réponse:

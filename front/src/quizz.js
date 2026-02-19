@@ -33,9 +33,11 @@ async function showQuestion() {
   questionElement.innerText = question.label
   
   proposalsElement.innerHTML = "";
-  question.proposals.forEach(proposal => {
+  question.proposals.forEach((proposal, index) => {
     const button = document.createElement("button");
     button.innerText = proposal.label;
+    button.setAttribute("aria-label", `Proposition ${index + 1}: ${proposal.label}`);
+    button.setAttribute("role", "button");
     proposalsElement.appendChild(button);
     button.addEventListener("click", selectAnswer);
   });
